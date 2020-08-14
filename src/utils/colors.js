@@ -7,9 +7,9 @@ export const blue = {
   };
   
   export const green = {
-    100: "#529e66",
-    200: "#367b48",
-    300: "#276738"
+    100: "#77b542",
+    200: "#d6e2cc",
+    300: "#568230"
   };
   
   export const yellow = {
@@ -27,8 +27,8 @@ export const blue = {
   export const neutral = {
     100: "#ffffff",
     200: "#f4f5f7",
-    300: "#e1e1e1",
-    400: "#737581",
-    500: "#4a4b53",
+    300: "#e4e4e4",
+    400: "#adadad",
+    500: "#202125",
     600: "#000000"
   };

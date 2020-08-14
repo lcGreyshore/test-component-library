@@ -1,4 +1,4 @@
-export const primaryFont = '"Roboto Mono", monospace';
+export const primaryFont = '"Helvetica Neue", sans serif';
 
 export const typeScale = {
     header1: "1.8rem",

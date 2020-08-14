@@ -55,7 +55,7 @@ const BUTTON_MODIFIERS = {
   const Button = styled.button`
     padding: 8px 12px;
     font-size: ${typeScale.paragraph};
-    border-radius: 2px;
+    border-radius: 5px;
     min-width: 100px;
     cursor: pointer;
     font-family: ${props => props.theme.primaryFont};
@@ -67,8 +67,8 @@ const BUTTON_MODIFIERS = {
     }
   
     &:focus {
-      outline: 3px solid ${props => props.theme.primaryHoverColor};
-      outline-offset: 2px;
+      box-shadow: 0 3px 10px ${props => props.theme.textColorOnPrimary};
+     outline: none;
     }
   
     &:active {
@@ -93,8 +93,8 @@ const BUTTON_MODIFIERS = {
   `;
   
   export const SecondaryButton = styled(Button)`
-    border: 2px solid ${props => props.theme.primaryColor};
-    color: ${props => props.theme.primaryColor};
+    border: 2px solid ${props => props.theme.secondaryColor};
+    color: ${props => props.theme.secondaryColor};
     background: none;
   
     &:disabled {
@@ -108,7 +108,7 @@ const BUTTON_MODIFIERS = {
   
   export const TertiaryButton = styled(Button)`
     border: 2px solid transparent;
-    color: ${props => props.theme.primaryColor};
+    color: ${props => props.theme.tertiaryTextColor};
     background: none;
   
     &:disabled {
